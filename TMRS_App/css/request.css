@@ -1,0 +1,142 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    color: #212529;
+}
+
+.wraper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #343c43;
+}
+header{
+    width:100%;
+    display: block;
+    padding: 1.5em 2em 2em 2em;
+    background-color: #343c43;
+    margin: 0;
+}
+header h1{
+    color: #fff;
+    font-size: 3em;
+}
+.container-home-btn{
+    float: right;
+    padding: 1em 0;
+}
+.logout-btn{
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    border-radius: 21px;
+    background: linear-gradient(#a445b2, #485eba, #94a1d6);
+    position: relative;
+    z-index: 1;
+    transition: all 0.7s;
+}
+
+.login-btn:hover{
+    background: #485eba; 
+}
+
+.login-btn:active{
+    background: #485eba;  
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 103.8%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.container::before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.65);
+}
+
+main { 
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+figure {
+    width: 100%;
+    margin: 40px;
+    min-height: 600px;
+    
+    display:block;
+    justify-content: center;
+}
+
+h2 { 
+    color: #fff;
+    font-size:2em;
+}
+table {
+    
+   
+    color: #343c43;
+}
+table, th, td {
+    border-collapse: collapse;
+    border:3px solid #e6e6e6;
+}
+th{
+    font-size: 1.5em;
+    font-weight: bold;
+     background-color: rgba(209, 219, 229, 0.6);
+    border-bottom-width: 6px;
+    border-top-width: 6px;
+}
+
+
+th, td {
+    color: #343c43;
+    padding: .5em;
+    
+}
+
+td{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgba(209, 219, 229, 0.9);
+}
+
+.head{width: 100%;}
+
+
